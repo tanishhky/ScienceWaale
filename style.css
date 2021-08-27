@@ -24,7 +24,7 @@ header{
 nav{
     border-style: solid;
     border-width: 2px;
-    background-color: rgb(105, 89, 87);
+    background-color: rgb(247, 188, 181);
     padding-top: 1%;
     padding-bottom: 1%;
     margin-bottom: 4%;
@@ -62,7 +62,7 @@ header img{
     border-width: 1px 8px 1px 8px;
     border-top: whitesmoke;
     border-bottom: whitesmoke;
-    background: gray;
+    background: rgb(252, 233, 209);
     opacity: 75%;
 }
 
@@ -75,7 +75,7 @@ header img{
     border-width: 1px 8px 1px 8px;
     border-top: whitesmoke;
     border-bottom: whitesmoke;
-    background: gray;
+    background: rgb(252, 216, 249);
     opacity: 75%;
 }
 
@@ -88,7 +88,7 @@ header img{
     border-width: 1px 8px 1px 8px;
     border-top: whitesmoke;
     border-bottom: whitesmoke;
-    background: gray;
+    background: rgb(202, 252, 200);
     opacity: 75%;
 }
 
@@ -101,20 +101,20 @@ header img{
     border-width: 1px 8px 1px 8px;
     border-top: whitesmoke;
     border-bottom: whitesmoke;
-    background: gray;
+    background: rgb(243, 210, 252);
     opacity: 75%;
 }
 
 .PE{
     padding-left: 2%;
     padding-right: 2%;
-    border-left: wheat;
-    border-right: wheat;
+    border-left: yellow;
+    border-right: yellow;
     border-style: solid;
     border-width: 1px 8px 1px 8px;
     border-top: whitesmoke;
     border-bottom: whitesmoke;
-    background: gray;
+    background: rgb(248, 250, 229);
     opacity: 75%;
 }
 
@@ -155,16 +155,46 @@ a{
     padding: 5%;
 }
 
+.home{
+    float: left;
+    width: 15%;
+}
+
+.SW{
+    float: left;
+    width: 15%;
+}
+
+.SM{
+    float: left;
+    width: 15%;
+}
+
+.join{
+    float: left;
+    width: 15%;
+}
+
+.CU{
+    float:left;
+    width: 15%;
+}
+
+.AU{
+    float: left;
+    width: 15%;
+}
 footer{
     text-align: center;
     font-weight: bold;
     background: whitesmoke;
     padding: 2%;
+    margin: 2%;
 }
 
 .SNE{
     font-size: 200%;
-    font-family: 'a-astro-space';
+    font-family: 'a Astro Space', sans-serif;
     background: rgb(133, 253, 247);
     padding: 2%;
     margin-left: 6%;
