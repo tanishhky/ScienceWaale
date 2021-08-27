@@ -3,8 +3,13 @@
     src: url("Fonts/AstroSpace-0Wl3o.otf");
 }
 
+@font-face {
+    font-family: Drum-N-Bass;
+    src: url("Fonts/DrumNBassItalic-51j9L.ttf");
+}
+
 header{
-    font-family: 'Drum N Bass';
+    font-family: "Drum-N-Bass";
     align: center;
     background: rgb(107, 109, 109);
     opacity: 85%;
@@ -196,7 +201,7 @@ footer{
 
 .SNE{
     font-size: 200%;
-    font-family: 'a Astro Space', sans-serif;
+    font-family: "Astro-Space";
     background: rgb(133, 253, 247);
     padding: 2%;
     margin-left: 6%;
