@@ -1,0 +1,158 @@
+@font-face {
+    font-family: Astro-Space;
+    src: url("Fonts/AstroSpace-0Wl3o.otf");
+}
+
+@font-face {
+    font-family: Drum-N-Bass;
+    src: url("Fonts/DrumNBassItalic-51j9L.ttf");
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("Fonts/Nunito-SemiBold.ttf");
+}
+
+header{
+    font-family: "Drum-N-Bass";
+    background: rgb(107, 109, 109);
+    opacity: 85%;
+    font-style: italic;
+    text-shadow: 5px 5px rgb(88, 87, 87);
+    margin-left: 2%;
+    margin-right: 2%;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 4%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    border-radius: 15px;
+}
+
+nav{
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(247, 188, 181);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    opacity: 80%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+body{
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Page-Name{
+    display: inline;
+    font-size: 500%;
+    opacity: 100%;    
+}
+
+header img{
+    display: inline;
+}
+
+
+html{
+    border-width: 45px;
+    border-style: solid;
+    border-color: thistle;
+}
+
+a{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+.home{
+    float: left;
+    width: 15%;
+}
+
+.SW{
+    float: left;
+    width: 15%;
+}
+
+.SM{
+    float: left;
+    width: 15%;
+}
+
+.join{
+    float: left;
+    width: 15%;
+}
+
+.CU{
+    float:left;
+    width: 15%;
+}
+
+.AU{
+    float: left;
+    width: 15%;
+}
+
+.footer{
+    font-size: 4px;
+    text-align: center;
+    font-weight: bold;
+    background: whitesmoke;
+    padding: 10px;
+    margin: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.Join_Us{
+    font-size: 200%;
+    font-family: "Astro-Space";
+    background: rgb(133, 253, 247);
+    padding: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    opacity: 80%;
+}
+
+.main{
+    font-family: "Nunito";
+    background: rgb(138, 139, 139);
+    padding: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    opacity: 80%;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.click{
+    padding: 20px;
+}
+
+h3{
+    text-align: center;
+}
+
+.links{
+    margin: 10%;
+}

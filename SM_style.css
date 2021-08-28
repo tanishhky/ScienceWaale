@@ -1,0 +1,269 @@
+@font-face {
+    font-family: Astro-Space;
+    src: url("Fonts/AstroSpace-0Wl3o.otf");
+}
+
+@font-face {
+    font-family: Drum-N-Bass;
+    src: url("Fonts/DrumNBassItalic-51j9L.ttf");
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("Fonts/Nunito-SemiBold.ttf");
+}
+
+header{
+    font-family: "Drum-N-Bass";
+    background: rgb(107, 109, 109);
+    opacity: 85%;
+    font-style: italic;
+    text-shadow: 5px 5px rgb(88, 87, 87);
+    margin-left: 2%;
+    margin-right: 2%;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 4%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    border-radius: 15px;
+}
+
+nav{
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(247, 188, 181);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    opacity: 80%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+body{
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Page-Name{
+    display: inline;
+    font-size: 500%;
+    opacity: 100%;    
+}
+
+header img{
+    display: inline;
+}
+
+
+html{
+    border-width: 45px;
+    border-style: solid;
+    border-color: thistle;
+}
+
+a{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+h1{
+    text-align: center;
+}
+
+.home{
+    float: left;
+    width: 15%;
+}
+
+.SW{
+    float: left;
+    width: 15%;
+}
+
+.SM{
+    float: left;
+    width: 15%;
+}
+
+.join{
+    float: left;
+    width: 15%;
+}
+
+.CU{
+    float:left;
+    width: 15%;
+}
+
+.AU{
+    float: left;
+    width: 15%;
+}
+
+.footer{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    background: whitesmoke;
+    padding: 5px;
+    margin: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.E{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-left: tomato;
+    border-right: tomato;
+    border-style: solid;
+    border-width: 1px 15px 1px 15px;
+    border-top: whitesmoke;
+    border-bottom: whitesmoke;
+    background: rgb(252, 233, 209);
+    opacity: 75%;
+}
+
+.P{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-left: purple;
+    border-right: purple;
+    border-style: solid;
+    border-width: 1px 15px 1px 15px;
+    border-top: whitesmoke;
+    border-bottom: whitesmoke;
+    background:rgb(252, 216, 249);
+    opacity: 75%;
+}
+
+.C{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-left: greenyellow;
+    border-right: greenyellow;
+    border-style: solid;
+    border-width: 1px 15px 1px 15px;
+    border-top: whitesmoke;
+    border-bottom: whitesmoke;
+    background: rgb(202, 252, 200);
+    opacity: 75%;
+}
+
+.M{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-left: blueviolet;
+    border-right: blueviolet;
+    border-style: solid;
+    border-width: 1px 15px 1px 15px;
+    border-top: whitesmoke;
+    border-bottom: whitesmoke;
+    background: rgb(243, 210, 252);
+    opacity: 75%;
+}
+
+.PE{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-left: yellow;
+    border-right: yellow;
+    border-style: solid;
+    border-width: 1px 15px 1px 15px;
+    border-top: whitesmoke;
+    border-bottom: whitesmoke;
+    background: rgb(248, 250, 229);
+    opacity: 75%;
+}
+
+.Eng{
+    padding: 2%;
+    font-size: 60%;
+    background: rgb(237, 232, 238);
+    opacity: 90%;
+    border-style: dotted;
+    border-radius: 15px;
+    border-width: 5px;
+}
+
+.Phy{
+    padding: 2%;
+    font-size: 60%;
+    background: rgb(237, 232, 238);
+    opacity: 90%;
+    border-style: dotted;
+    border-radius: 15px;
+    border-width: 5px;
+}
+
+.Chem{
+    padding: 2%;
+    font-size: 60%;
+    background: rgb(237, 232, 238);
+    opacity: 90%;
+    border-style: dotted;
+    border-radius: 15px;
+    border-width: 5px;
+}
+
+.Math{
+    font-size: 60%;
+    background: rgb(237, 232, 238);
+    opacity: 90%;
+    border-style: dotted;
+    border-radius: 15px;
+    border-width: 5px;
+    padding: 2%;
+    
+}
+
+.PhyEdu{
+    padding: 2%;
+    font-size: 60%;
+    background: rgb(237, 232, 238);
+    opacity: 90%;
+    border-style: dotted;
+    border-radius: 15px;
+    border-width: 5px;
+}
+
+table{
+    font-size: 30px;
+}
+
+.N{
+    padding: 1%;
+    text-align: center;
+    width: 15%;
+}
+
+.Ch{
+    padding: 1%;
+    width: 55%;
+}
+
+.L{
+    padding: 1%;
+    width: 20%;
+    text-align: center;
+}
