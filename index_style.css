@@ -8,6 +8,11 @@
     src: url("Fonts/DrumNBassItalic-51j9L.ttf");
 }
 
+@font-face {
+    font-family: Nunito;
+    src: url("Fonts/Nunito-SemiBold.ttf");
+}
+
 header{
     font-family: "Drum-N-Bass";
     background: rgb(107, 109, 109);
@@ -30,7 +35,7 @@ header{
 nav{
     border-style: solid;
     border-width: 2px;
-    background-color: rgb(247, 188, 181);
+    background-color: #DA0037;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     margin-bottom: 4%;
@@ -38,7 +43,8 @@ nav{
     margin-right: 2%;
     border-radius: 15px;
     opacity: 80%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:"Nunito";
+    font-size: 28px;
     text-align: center;
     font-weight: bold;
 }
@@ -136,7 +142,7 @@ header img{
 html{
     border-width: 45px;
     border-style: solid;
-    border-color: thistle;
+    border-color: #171717;
 }
 
 a{
@@ -215,7 +221,7 @@ a{
 .SNE{
     font-size: 200%;
     font-family: "Astro-Space";
-    background: rgb(133, 253, 247);
+    background: #EDEDED;
     padding: 2%;
     margin-left: 6%;
     margin-right: 6%;
