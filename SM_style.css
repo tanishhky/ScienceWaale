@@ -33,20 +33,26 @@ header{
 }
 
 nav{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+.nav{
     border-style: solid;
     border-width: 2px;
     background-color: #DA0037;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     margin-bottom: 4%;
-    margin-left: 2%;
-    margin-right: 2%;
     border-radius: 15px;
     opacity: 80%;
     font-family:"Nunito";
     font-size: 28px;
-    text-align: center;
     font-weight: bold;
+    display: inline;
 }
 
 body{
@@ -82,35 +88,30 @@ h1{
 }
 
 .home{
-    float: left;
-    width: 15%;
+    width: 20%;
+    display: inline;
 }
 
 .SW{
-    float: left;
-    width: 15%;
+    width: 20%;
+    display: inline;
 }
 
 .SM{
-    float: left;
-    width: 15%;
+    width: 20%;
+    display: inline;
 }
 
 .join{
-    float: left;
-    width: 15%;
+    width: 20%;
+    display: inline;
 }
 
-.CU{
-    float:left;
-    width: 15%;
-}
 
 .AU{
-    float: left;
-    width: 15%;
+    width: 20%;
+    display: inline;
 }
-
 .footer{
     font-size: 20px;
     text-align: center;

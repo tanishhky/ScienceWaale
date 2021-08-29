@@ -13,6 +13,11 @@
     src: url("Fonts/Nunito-SemiBold.ttf");
 }
 
+@font-face {
+    font-family: Dancing Script;
+    src: url("Fonts/DancingScript-VariableFont_wght.ttf");
+}
+
 header{
     font-family: "Drum-N-Bass";
     background: rgb(107, 109, 109);
@@ -33,20 +38,22 @@ header{
 }
 
 nav{
+    text-align: center;
+}
+
+.nav{
     border-style: solid;
     border-width: 2px;
     background-color: #DA0037;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     margin-bottom: 4%;
-    margin-left: 2%;
-    margin-right: 2%;
     border-radius: 15px;
     opacity: 80%;
     font-family:"Nunito";
     font-size: 28px;
-    text-align: center;
     font-weight: bold;
+    display: inline;
 }
 
 body{
@@ -134,12 +141,12 @@ a{
 
 .Tan{
     font-family: "Nunito";
-    background: rgb(138, 139, 139);
+    background: rgb(253, 253, 253);
     padding: 5%;
     margin: 6%;
     border-width: 5px;
     border-style: solid;
-    opacity: 80%;
+    opacity: 100%;
     font-weight: bold;
     font-size: 40px;
     width: fit-content;
@@ -177,4 +184,8 @@ a{
     padding: 25px;
     font-size: 100%;
     margin: 0% 15% 15% 15%;
+}
+
+figcaption{
+    font-family: "Dancing Script";
 }
